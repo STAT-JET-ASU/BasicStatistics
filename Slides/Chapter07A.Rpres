@@ -4,13 +4,49 @@ author: Created by: Jill E. Thomley
 date: Updated: `r Sys.time()`
 autosize: true
 
-Kid Ages
+
+Grades of Kids
 ========================================================
-```{r}
-data <- read.csv(file="../git_repositor/neonate-05-30-2017.csv")
+```{r echo=FALSE}
+require(dplyr)
+data <- read.csv(file=url("https://raw.githubusercontent.com/STAT-JET-ASU/Datafiles/master/Instructor/popular.csv"))
+
+ft <- data %>% 
+      group_by(grade) %>% 
+      summarise(frequency = n()) %>% 
+      mutate(rel_frequency = frequency/sum(frequency),
+             percentage = 100*rel_frequency)
+knitr::kable(ft, format="html", align = c("c","c","c","c")) 
 ```
 
 
+Ages of Kids
+========================================================
+
+A **random circumstance** is a scenario in which the exact outcome is unpredictable. There are two kinds of random circumstances we can think about.
+
+*  The outcome is not determined until we observe it. 
+
+Example: whether the coin flip at the start of a football game turn out to be heads or tails.
+
+*  The outcome has been determined, but our knowledge of the outcome is uncertain. 
+
+Example: whether or not someone has a BRCA or PALB2 gene mutation. They have it or they do not, but we do not know until we do a test.
+
+
+Ages of Kids
+========================================================
+```{r echo=FALSE}
+require(dplyr)
+data <- read.csv(file=url("https://raw.githubusercontent.com/STAT-JET-ASU/Datafiles/master/Instructor/popular.csv"))
+
+ft <- data %>% 
+      group_by(age) %>% 
+      summarise(frequency = n()) %>% 
+      mutate(rel_frequency = frequency/sum(frequency),
+             percentage = 100*rel_frequency)
+knitr::kable(ft, format="html", align = c("c","c","c","c")) 
+```
 
 
 Probability Definitions 
