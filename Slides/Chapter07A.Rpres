@@ -1,0 +1,74 @@
+Utts & Heckard Chapter 07
+========================================================
+author: Created by: Jill E. Thomley
+date: Updated: `r Sys.time()`
+autosize: true
+
+Kid Ages
+========================================================
+```{r}
+data <- read.csv(file="../git_repositor/neonate-05-30-2017.csv")
+```
+
+
+
+
+Probability Definitions 
+========================================================
+
+*  A **simple event** is a unique possible outcome of a random circumstance.
+*  The **sample space** of a random circumstance is the set of all simple events.
+*  A **compound event** is an event that includes two or more simple events.
+*  An **event** is a collection of one or more simple events in the sample space.
+
+Events are often written symbolically using capital letters.
+
+
+An Example 
+========================================================
+
+
+
+
+Two Conditions for Valid Probabilities 
+========================================================
+
+For a given random circumstance with a set of possible outcomes...
+
+*  The probability of any possible outcome is between 0 and 1
+*  The sum of the probabilities for all the possible outcomes is 1.
+
+
+
+
+Rule 1: Complement Rule
+========================================================
+
+What is the probability that an event does _not_ occur?
+
+
+
+
+
+Rule 2: Addition Rule
+========================================================
+
+What is the probability that either one or both of two events happen?
+
+
+
+
+
+Rule 3: Multiplication Rule
+========================================================
+
+What is the probabilty that two events happen together?
+
+
+
+
+
+Rule 4: Conditional Probability
+========================================================
+
+TBA
