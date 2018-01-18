@@ -1,7 +1,11 @@
 Utts & Heckard CH07
 ========================================================
 author: Created by: Jill E. Thomley
+<<<<<<< HEAD
 date: Updated: 2018-01-17 20:28:34
+=======
+date: Updated: 2018-01-17 20:22:48
+>>>>>>> c64eae5858fb328076c2c2a6342e4b3ee0d79d0e
 autosize: true
 
 
