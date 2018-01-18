@@ -784,7 +784,7 @@ hljs.initHighlightingOnLoad();
   <div class="slides">
 
 <section data-state="section" data-transition="linear" data-transition-speed="default">
-<h1>Utts &amp; Heckard CH07</h1><p>Created by: Jill E. Thomley<br/>Updated: 2018-01-17 19:49:05</p>
+<h1>Utts &amp; Heckard CH07</h1><p>Created by: Jill E. Thomley<br/>Updated: 2018-01-17 20:19:31</p>
 
 <div class="slideContent" >
 
@@ -814,13 +814,13 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>What are the Chances?</h3>
 <div class="slideContent" >
-<p>While we can <em>not</em> predict exactly what will happen for a given random circumstance, we can often determine a set of possible outcomes and attach a <strong>probability</strong> to each outcome.</p>
+<p>While we cannot predict exactly what will happen for any given random circumstance, we can often determine a set of possible outcomes and attach a <strong>probability</strong> to each outcome.</p>
 
 <p>Sometimes, the probabilities of the outcomes for a given random circumstance depend on another random circumstance. </p>
 
 <p>Example: the chance of being injured in a car accident depends on whether or not the person is wearing a seatbelt.</p>
 
-<p>We also refer to random circumstances as <strong>random variables</strong> and use them to mathematically model the world.</p>
+<p>We also refer to random circumstances as <strong>random variables</strong> and use them to mathematically model the world. Something that is not random is <strong>deterministic</strong>.</p>
 
 </div>
 
@@ -831,8 +831,8 @@ hljs.initHighlightingOnLoad();
 <p>For situations that we can imagine repeating many times, the probability of an outcome is the fraction of the time it would happen in the long run. We express probabilities as fractions, proportions, or percentages.</p>
 
 <ul>
-<li><p><strong>relative frequency probabilties</strong> rely on determining how often each outcome occurs relative to the others, based on logical assumptions and theory or direct observation (we call this empirical or experimental probability) </p></li>
-<li><p><strong>personal probabilities</strong> (or <strong>subjective probabilities</strong>) rely on an individual&#39;s judgment and experience, often when there is not enough data or an event is not repeatable</p></li>
+<li><p><strong>relative frequency probabilties</strong> rely on determining how often each outcome occurs relative to the others, based on logical assumptions and theory <u>or</u> on direct observation of events (empirical or experimental probability) </p></li>
+<li><p><strong>personal probabilities</strong> (or <strong>subjective probabilities</strong>) rely on an individual&#39;s judgment and experience, often when there is not enough data or circumstance is not repeatable</p></li>
 </ul>
 
 </div>
@@ -865,7 +865,7 @@ hljs.initHighlightingOnLoad();
 
 <p>Even personal probabilities must be <strong>coherent probabilities</strong>: the values have to be between 0 and 1 and they cannot contradict one another. If you think you have a 20% chance of getting a job, then you should think you have an 80% chance of not getting it. </p>
 
-<p>Question: what do probabilities of exactly 0 and exactly 1 mean?</p>
+<p>Question: What do probabilities of exactly 0 or exactly 1 mean?</p>
 
 </div>
 
@@ -873,7 +873,7 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>Majors of Students</h3>
 <div class="slideContent" >
-<p>The frequency table summarizes the self-identified majors for students in several of Dr. Thomley&#39;s previous STT1810 classes.</p>
+<p>This frequency table summarizes the self-identified majors for students in several of Dr. Thomley&#39;s previous STT1810 classes.</p>
 
 <table>
  <thead>
@@ -932,7 +932,7 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>Genders of Students</h3>
 <div class="slideContent" >
-<p>The frequency table summarizes self-identified genders for students in several of Dr. Thomley&#39;s previous STT1810 classes. Note that students were provided with non-binary options, but no students selected them.</p>
+<p>This frequency table summarizes self-identified genders for students in several of Dr. Thomley&#39;s previous STT1810 classes. Note that students were provided with non-binary options, but no students selected them.</p>
 
 <table>
  <thead>
@@ -983,9 +983,9 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>Example Continued </h3>
 <div class="slideContent" >
-<p>B = the student is from Dept. of Government and Justice Studies</p>
+<p>B = student is from Government and Justice Studies</p>
 
-<p>This event is made up of the simple events &ldquo;political science&rdquo; and &ldquo;criminal justice&rdquo;.</p>
+<p>This compound event includes the two simple events &ldquo;political science&rdquo; and &ldquo;criminal justice&rdquo;.</p>
 
 <p>P(B) = (135 + 190) / 486 = 0.6687 = 66.87%</p>
 
@@ -999,7 +999,7 @@ hljs.initHighlightingOnLoad();
 
 <p>B = student is from Government and Justice Studies</p>
 
-<p>B<sup>c</sup> = student is not from Government and Justice Studies</p>
+<p>B<sup>c</sup> = student is <em>not</em> from Government and Justice Studies</p>
 
 <p>P(B) + P(B<sup>c</sup>) &rarr; P(B<sup>c</sup>) = 1 - P(B) = 1 - 0.6687 = 0.3313</p>
 
@@ -1017,9 +1017,9 @@ hljs.initHighlightingOnLoad();
 
 <p>C = the student is from the Beaver College of Health Sciences</p>
 
-<p>A student cannot belong to both A and C, but together they do not include all possible majors.</p>
+<p>One student cannot belong to both A and C, but together they do not include all possible majors.</p>
 
-<p>Question: is being Male and a Nursing major mutually exclusive?</p>
+<p>Question: Is being Male and a Nursing major mutually exclusive?</p>
 
 </div>
 
@@ -1037,39 +1037,7 @@ hljs.initHighlightingOnLoad();
   Political Science           59   76
 </code></pre>
 
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
-<h3>Rule 2: Addition Rule</h3>
-<div class="slideContent" >
-<p>What is the probability that either one or both of two events happen?</p>
-
-<pre><code>
-                          Female Male
-  Communication Disorders     41    2
-  Criminal Justice            55  135
-  HLES                        20   17
-  Nursing                     50   10
-  Other                       15    6
-  Political Science           59   76
-</code></pre>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
-<h3>Rule 3: Multiplication Rule</h3>
-<div class="slideContent" >
-<p>What is the probabilty that two events happen together?</p>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
-<h3>Rule 4: Conditional Probability</h3>
-<div class="slideContent" >
-<p>TBA</p>
+<p>Question: What would the table entry have to be if they were mutually exclusive?</p>
 
 </div>
 
