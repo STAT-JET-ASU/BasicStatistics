@@ -1,7 +1,7 @@
 Utts & Heckard CH07
 ========================================================
 author: Created by: Jill E. Thomley
-date: Updated: 2018-01-17 20:20:53
+date: Updated: 2018-01-17 20:28:34
 autosize: true
 
 
@@ -67,7 +67,7 @@ For a given random circumstance...
 
 Even personal probabilities must be **coherent probabilities**: the values have to be between 0 and 1 and they cannot contradict one another. If you think you have a 20% chance of getting a job, then you should think you have an 80% chance of not getting it. 
 
-Question: What do probabilities of exactly 0 or exactly 1 mean?
+Question: What do extreme probability values 0 and 1 indicate?
 
 
 
@@ -217,7 +217,7 @@ A = the student is a political science major
 
 C = the student is from the Beaver College of Health Sciences
 
-One student cannot belong to both A and C, but together they do not include all possible majors.
+One student cannot belong to both A and C, but together these two events do not include all possible majors.
 
 Question: Is being Male and a Nursing major mutually exclusive?
 
