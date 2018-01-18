@@ -1,7 +1,7 @@
 Utts & Heckard CH07
 ========================================================
 author: Created by: Jill E. Thomley
-date: Updated: 2018-01-17 19:49:05
+date: Updated: 2018-01-17 20:11:29
 autosize: true
 
 
@@ -24,13 +24,13 @@ Example: whether or not someone has a BRCA or PALB2 gene mutation. They have it 
 What are the Chances?
 ========================================================
 
-While we can _not_ predict exactly what will happen for a given random circumstance, we can often determine a set of possible outcomes and attach a **probability** to each outcome.
+While we cannot predict exactly what will happen for any given random circumstance, we can often determine a set of possible outcomes and attach a **probability** to each outcome.
 
 Sometimes, the probabilities of the outcomes for a given random circumstance depend on another random circumstance. 
 
 Example: the chance of being injured in a car accident depends on whether or not the person is wearing a seatbelt.
 
-We also refer to random circumstances as **random variables** and use them to mathematically model the world.
+We also refer to random circumstances as **random variables** and use them to mathematically model the world. Something that is not random is **deterministic**.
 
 
 
@@ -39,9 +39,9 @@ Probability Interpretations
 
 For situations that we can imagine repeating many times, the probability of an outcome is the fraction of the time it would happen in the long run. We express probabilities as fractions, proportions, or percentages.
 
-*  **relative frequency probabilties** rely on determining how often each outcome occurs relative to the others, based on logical assumptions and theory or direct observation (we call this empirical or experimental probability) 
+*  **relative frequency probabilties** rely on determining how often each outcome occurs relative to the others, based on logical assumptions and theory <u>or</u> on direct observation of events (empirical or experimental probability) 
 
-*  **personal probabilities** (or **subjective probabilities**) rely on an individual's judgment and experience, often when there is not enough data or an event is not repeatable
+*  **personal probabilities** (or **subjective probabilities**) rely on an individual's judgment and experience, often when there is not enough data or circumstance is not repeatable
 
 
 
@@ -67,14 +67,14 @@ For a given random circumstance...
 
 Even personal probabilities must be **coherent probabilities**: the values have to be between 0 and 1 and they cannot contradict one another. If you think you have a 20% chance of getting a job, then you should think you have an 80% chance of not getting it. 
 
-Question: what do probabilities of exactly 0 and exactly 1 mean?
+Question: What do probabilities of exactly 0 or exactly 1 mean?
 
 
 
 Majors of Students
 ========================================================
 
-The frequency table summarizes the self-identified majors for students in several of Dr. Thomley's previous STT1810 classes.
+This frequency table summarizes the self-identified majors for students in several of Dr. Thomley's previous STT1810 classes.
 
 <table>
  <thead>
@@ -132,7 +132,7 @@ The total number of students in the dataset is 486.
 Genders of Students
 ========================================================
 
-The frequency table summarizes self-identified genders for students in several of Dr. Thomley's previous STT1810 classes. Note that students were provided with non-binary options, but no students selected them.
+This frequency table summarizes self-identified genders for students in several of Dr. Thomley's previous STT1810 classes. Note that students were provided with non-binary options, but no students selected them.
 
 <table>
  <thead>
@@ -185,9 +185,9 @@ Example Continued
 
 
 
-B = the student is from Dept. of Government and Justice Studies
+B = student is from Government and Justice Studies
 
-This event is made up of the simple events "political science" and "criminal justice".
+This compound event includes the two simple events "political science" and "criminal justice".
 
 P(B) = (135 + 190) / 486 = 0.6687 = 66.87%
 
@@ -200,7 +200,7 @@ One event is the **complement** of another if they do not contain any of the sam
 
 B = student is from Government and Justice Studies
 
-B<sup>c</sup> = student is not from Government and Justice Studies
+B<sup>c</sup> = student is _not_ from Government and Justice Studies
 
 P(B) + P(B<sup>c</sup>) &rarr; P(B<sup>c</sup>) = 1 - P(B) = 1 - 0.6687 = 0.3313
 
@@ -219,7 +219,7 @@ C = the student is from the Beaver College of Health Sciences
 
 A student cannot belong to both A and C, but together they do not include all possible majors.
 
-Question: is being Male and a Nursing major mutually exclusive?
+Question: Is being Male and a Nursing major mutually exclusive?
 
 
 
@@ -238,38 +238,4 @@ Male and Nursing Major?
   Political Science           59   76
 ```
 
-
-
-Rule 2: Addition Rule
-========================================================
-
-What is the probability that either one or both of two events happen?
-
-
-```
-                         
-                          Female Male
-  Communication Disorders     41    2
-  Criminal Justice            55  135
-  HLES                        20   17
-  Nursing                     50   10
-  Other                       15    6
-  Political Science           59   76
-```
-
-
-
-
-Rule 3: Multiplication Rule
-========================================================
-
-What is the probabilty that two events happen together?
-
-
-
-
-
-Rule 4: Conditional Probability
-========================================================
-
-TBA
+Question: What would the table entry have to be if they were mutually exclusive?
