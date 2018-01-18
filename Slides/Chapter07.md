@@ -1,7 +1,7 @@
 Utts & Heckard CH07
 ========================================================
 author: Created by: Jill E. Thomley
-date: Updated: 2018-01-17 20:20:53
+date: Updated: 2018-01-17 20:22:48
 autosize: true
 
 
@@ -217,7 +217,7 @@ A = the student is a political science major
 
 C = the student is from the Beaver College of Health Sciences
 
-One student cannot belong to both A and C, but together they do not include all possible majors.
+One student cannot belong to both A and C, but together these two events do not include all possible majors.
 
 Question: Is being Male and a Nursing major mutually exclusive?
 
