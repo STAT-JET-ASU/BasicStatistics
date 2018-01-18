@@ -1,11 +1,7 @@
 Utts & Heckard CH07
 ========================================================
 author: Created by: Jill E. Thomley
-<<<<<<< HEAD
-date: Updated: 2018-01-17 20:28:34
-=======
-date: Updated: 2018-01-17 20:22:48
->>>>>>> c64eae5858fb328076c2c2a6342e4b3ee0d79d0e
+date: Updated: 2018-01-17 21:09:19
 autosize: true
 
 
@@ -206,7 +202,7 @@ B = student is from Government and Justice Studies
 
 B<sup>c</sup> = student is _not_ from Government and Justice Studies
 
-P(B) + P(B<sup>c</sup>) &rarr; P(B<sup>c</sup>) = 1 - P(B) = 1 - 0.6687 = 0.3313
+P(B) + P(B<sup>c</sup>) = 1 &rarr; P(B<sup>c</sup>) = 1 - P(B) &rarr; 1 - 0.6687 = 0.3313
 
 What is the probability that an event does _not_ occur?
 
@@ -215,7 +211,7 @@ What is the probability that an event does _not_ occur?
 Mutually Exclusive
 ========================================================
 
-Two events are **mutually exclusive** if they do not contain any of the same simple events. By definition, complementary events are mutually exclusive, but not all mutually exclusive events are complementary.
+Two events are **mutually exclusive** (i.e., **disjoint**) if they do not contain any of the same simple events. By definition, events that are complementary are mutually exclusive, but not all mutually exclusive events are complementary.
 
 A = the student is a political science major
 
@@ -227,7 +223,16 @@ Question: Is being Male and a Nursing major mutually exclusive?
 
 
 
-Male and Nursing Major?
+Independent
+========================================================
+
+Two events are **independent** if knowing that one will occur (or has occurred) does not affect the probability that the other will occur. Otherwise they are **dependent**.
+
+Question: Are Gender and Major independent of one another?
+
+
+
+Let's Investigate!
 ========================================================
 
 
@@ -242,4 +247,34 @@ Male and Nursing Major?
   Political Science           59   76
 ```
 
-Question: What would the table entry have to be if they were mutually exclusive?
+
+
+Rule 2: Addition Rule
+========================================================
+
+What is the probability that either one or both of two events happen?
+
+*  P(A or B) = P(A) + P(B) - P(A and B)
+
+*  P(A or B) = P(A) + P(B) . . . if A and B are mutually exclusive
+
+If A and B are mutually exclusive, P(A and B) = 0 &rarr; impossible!
+
+We already saw that we could add probabilities when we did P(B) for students from Government and Justice Studies.
+
+
+
+Rule 3: Multiplication Rule
+========================================================
+
+What is the probabilty that two events happen together (or in a sequence)?
+
+*  P(A and B) = P(A)P(B|A) = P(B)P(A|B)
+
+*  P(A and B) = P(A)P(B) ... if A and B are independent
+
+*  We can extend the rule for multiple independent events
+
+P(A|B) is read as "the conditional probability of A given B".
+
+

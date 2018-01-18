@@ -784,11 +784,7 @@ hljs.initHighlightingOnLoad();
   <div class="slides">
 
 <section data-state="section" data-transition="linear" data-transition-speed="default">
-<<<<<<< HEAD
-<h1>Utts &amp; Heckard CH07</h1><p>Created by: Jill E. Thomley<br/>Updated: 2018-01-17 20:28:34</p>
-=======
-<h1>Utts &amp; Heckard CH07</h1><p>Created by: Jill E. Thomley<br/>Updated: 2018-01-17 20:22:48</p>
->>>>>>> c64eae5858fb328076c2c2a6342e4b3ee0d79d0e
+<h1>Utts &amp; Heckard CH07</h1><p>Created by: Jill E. Thomley<br/>Updated: 2018-01-17 21:09:19</p>
 
 <div class="slideContent" >
 
@@ -1005,7 +1001,7 @@ hljs.initHighlightingOnLoad();
 
 <p>B<sup>c</sup> = student is <em>not</em> from Government and Justice Studies</p>
 
-<p>P(B) + P(B<sup>c</sup>) &rarr; P(B<sup>c</sup>) = 1 - P(B) = 1 - 0.6687 = 0.3313</p>
+<p>P(B) + P(B<sup>c</sup>) = 1 &rarr; P(B<sup>c</sup>) = 1 - P(B) &rarr; 1 - 0.6687 = 0.3313</p>
 
 <p>What is the probability that an event does <em>not</em> occur?</p>
 
@@ -1015,7 +1011,7 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>Mutually Exclusive</h3>
 <div class="slideContent" >
-<p>Two events are <strong>mutually exclusive</strong> if they do not contain any of the same simple events. By definition, complementary events are mutually exclusive, but not all mutually exclusive events are complementary.</p>
+<p>Two events are <strong>mutually exclusive</strong> (i.e., <strong>disjoint</strong>) if they do not contain any of the same simple events. By definition, events that are complementary are mutually exclusive, but not all mutually exclusive events are complementary.</p>
 
 <p>A = the student is a political science major</p>
 
@@ -1029,7 +1025,17 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Male and Nursing Major?</h3>
+<h3>Independent</h3>
+<div class="slideContent" >
+<p>Two events are <strong>independent</strong> if knowing that one will occur (or has occurred) does not affect the probability that the other will occur. Otherwise they are <strong>dependent</strong>.</p>
+
+<p>Question: Are Gender and Major independent of one another?</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Let&#x27;s Investigate!</h3>
 <div class="slideContent" >
 <pre><code>
                           Female Male
@@ -1041,7 +1047,38 @@ hljs.initHighlightingOnLoad();
   Political Science           59   76
 </code></pre>
 
-<p>Question: What would the table entry have to be if they were mutually exclusive?</p>
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Rule 2: Addition Rule</h3>
+<div class="slideContent" >
+<p>What is the probability that either one or both of two events happen?</p>
+
+<ul>
+<li><p>P(A or B) = P(A) + P(B) - P(A and B)</p></li>
+<li><p>P(A or B) = P(A) + P(B) &hellip; if A and B are mutually exclusive</p></li>
+</ul>
+
+<p>If A and B are mutually exclusive, P(A and B) = 0 &rarr; impossible!</p>
+
+<p>We already saw that we could add probabilities when we did P(B) for students from Government and Justice Studies.</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Rule 3: Multiplication Rule</h3>
+<div class="slideContent" >
+<p>What is the probabilty that two events happen together (or in a sequence)?</p>
+
+<ul>
+<li><p>P(A and B) = P(A)P(B|A) = P(B)P(A|B)</p></li>
+<li><p>P(A and B) = P(A)P(B) &hellip; if A and B are independent</p></li>
+<li><p>We can extend the rule for multiple independent events</p></li>
+</ul>
+
+<p>P(A|B) is read as &ldquo;the conditional probability of A given B&rdquo;.</p>
 
 </div>
 
