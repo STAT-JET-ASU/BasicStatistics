@@ -1,8 +1,21 @@
 Utts & Heckard CH07
 ========================================================
 author: Created by: Jill E. Thomley
-date: Updated: 2018-01-17 21:09:19
+date: Updated: 2018-01-18 11:47:02
 autosize: true
+
+
+
+Randomness!
+========================================================
+
+*  **Randomness** is a lack of pattern or exact predictability. A random sequence of outcomes or events has no order and does not follow any identifiable pattern or combination. 
+
+*  Individual random events are by definition unpredictable, but the relative frequency of different outcomes over a very large number of events (often called "trials") is predictable. 
+
+*  Example: if you roll two six-sided dice and add the values, the result of one roll is unpredictable, but in the long run a sum of seven will occur twice as often as a sum of four. 
+
+*  Randomness reflects our **uncertainty** about an outcome, not haphazardness in the process that produces it.
 
 
 
@@ -17,7 +30,7 @@ Example: whether the coin flip at the start of a football game turn out to be he
 
 *  The outcome has been determined, but our knowledge of the outcome is uncertain. 
 
-Example: whether or not someone has a BRCA or PALB2 gene mutation. They have it or they do not, but we do not know until we do a test.
+Example: Whether or not someone has a BRCA or PALB2 gene mutation. They have it or they do not, but we do not know until we do a test.
 
 
 
@@ -28,7 +41,7 @@ While we cannot predict exactly what will happen for any given random circumstan
 
 Sometimes, the probabilities of the outcomes for a given random circumstance depend on another random circumstance. 
 
-Example: the chance of being injured in a car accident depends on whether or not the person is wearing a seatbelt.
+Example: The chance of being injured in a car accident depends on whether or not the person is wearing a seatbelt.
 
 We also refer to random circumstances as **random variables** and use them to mathematically model the world. Something that is not random is **deterministic**.
 
@@ -39,9 +52,9 @@ Probability Interpretations
 
 For situations that we can imagine repeating many times, the probability of an outcome is the fraction of the time it would happen in the long run. We express probabilities as fractions, proportions, or percentages.
 
-*  **relative frequency probabilties** rely on determining how often each outcome occurs relative to the others, based on logical assumptions and theory <u>or</u> on direct observation of events (empirical or experimental probability) 
+*  **relative frequency probabilities** rely on determining how often each outcome occurs relative to the others, based on logical assumptions and theory <u>or</u> on direct observation of events (empirical or experimental probability) 
 
-*  **personal probabilities** (or **subjective probabilities**) rely on an individual's judgment and experience, often when there is not enough data or circumstance is not repeatable
+*  **personal probabilities** (or **subjective probabilities**) rely on an individual's judgment and experience, often when there is not enough data or a circumstance is not repeatable
 
 
 
@@ -63,7 +76,7 @@ Probability Rules
 For a given random circumstance...
 
 *  The probability of any possible outcome is between 0 and 1
-*  The sum of the probabilities for all possible outcomes is 1.
+*  The sum of the probabilities for all possible outcomes is 1
 
 Even personal probabilities must be **coherent probabilities**: the values have to be between 0 and 1 and they cannot contradict one another. If you think you have a 20% chance of getting a job, then you should think you have an 80% chance of not getting it. 
 
@@ -127,6 +140,7 @@ This frequency table summarizes the self-identified majors for students in sever
 
 The total number of students in the dataset is 486.
 
+Dataset: STT1810-Thomley / Personality Type STT1810
 
 
 Genders of Students
@@ -191,10 +205,13 @@ This compound event includes the two simple events "political science" and "crim
 
 P(B) = (135 + 190) / 486 = 0.6687 = 66.87%
 
+Why can we just add them? We will come back to that.
 
 
 Rule 1: Complement Rule
 ========================================================
+
+What is the probability that an event does _not_ occur?
 
 One event is the **complement** of another if they do not contain any of the same simple events and together they contain all the simple events in the sample space. In other words, they do not overlap and together they cover the whole sample space.
 
@@ -203,8 +220,6 @@ B = student is from Government and Justice Studies
 B<sup>c</sup> = student is _not_ from Government and Justice Studies
 
 P(B) + P(B<sup>c</sup>) = 1 &rarr; P(B<sup>c</sup>) = 1 - P(B) &rarr; 1 - 0.6687 = 0.3313
-
-What is the probability that an event does _not_ occur?
 
 
 
@@ -219,7 +234,7 @@ C = the student is from the Beaver College of Health Sciences
 
 One student cannot belong to both A and C, but together these two events do not include all possible majors.
 
-Question: Is being Male and a Nursing major mutually exclusive?
+Question: Can a student be both Male and a Nursing major?
 
 
 
@@ -228,7 +243,9 @@ Independent
 
 Two events are **independent** if knowing that one will occur (or has occurred) does not affect the probability that the other will occur. Otherwise they are **dependent**.
 
-Question: Are Gender and Major independent of one another?
+Being dependent does not mean one event causes the other. It just means they are related in some way.
+
+Question: Are Major and Gender independent of one another?
 
 
 
@@ -238,14 +255,19 @@ Let's Investigate!
 
 ```
                          
-                          Female Male
-  Communication Disorders     41    2
-  Criminal Justice            55  135
-  HLES                        20   17
-  Nursing                     50   10
-  Other                       15    6
-  Political Science           59   76
+                          Female Male Sum
+  Communication Disorders     41    2  43
+  Criminal Justice            55  135 190
+  HLES                        20   17  37
+  Nursing                     50   10  60
+  Other                       15    6  21
+  Political Science           59   76 135
+  Sum                        240  246 486
 ```
+
+Question: Can a student be both Male and a Nursing major?
+
+Question: Are Major and Gender independent of one another?
 
 
 
@@ -260,7 +282,29 @@ What is the probability that either one or both of two events happen?
 
 If A and B are mutually exclusive, P(A and B) = 0 &rarr; impossible!
 
-We already saw that we could add probabilities when we did P(B) for students from Government and Justice Studies.
+We already saw that we could add probabilities when we found P(B) for students from Government and Justice Studies.
+
+
+
+Let's Investigate!
+========================================================
+
+
+```
+                         
+                          Female Male Sum
+  Communication Disorders     41    2  43
+  Criminal Justice            55  135 190
+  HLES                        20   17  37
+  Nursing                     50   10  60
+  Other                       15    6  21
+  Political Science           59   76 135
+  Sum                        240  246 486
+```
+
+Question: What is the chance that a randomly selected STT1810 student is Male <u>or</u> a Nursing major (or both)?
+
+P(Male or Nursing) = 
 
 
 
@@ -278,3 +322,23 @@ What is the probabilty that two events happen together (or in a sequence)?
 P(A|B) is read as "the conditional probability of A given B".
 
 
+
+Let's Investigate!
+========================================================
+
+
+```
+                         
+                          Female Male Sum
+  Communication Disorders     41    2  43
+  Criminal Justice            55  135 190
+  HLES                        20   17  37
+  Nursing                     50   10  60
+  Other                       15    6  21
+  Political Science           59   76 135
+  Sum                        240  246 486
+```
+
+Question: What is the chance that a randomly selected STT1810 student is both Male <u>and</u> a Nursing major?
+
+P(Male and Nursing) = 
