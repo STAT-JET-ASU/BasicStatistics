@@ -1,7 +1,7 @@
 Utts & Heckard CH07
 ========================================================
 author: Created by: Jill E. Thomley
-date: Updated: 2018-01-18 11:47:02
+date: Updated: 2018-01-22 16:19:00
 autosize: true
 
 
@@ -226,7 +226,7 @@ P(B) + P(B<sup>c</sup>) = 1 &rarr; P(B<sup>c</sup>) = 1 - P(B) &rarr; 1 - 0.6687
 Mutually Exclusive
 ========================================================
 
-Two events are **mutually exclusive** (i.e., **disjoint**) if they do not contain any of the same simple events. By definition, events that are complementary are mutually exclusive, but not all mutually exclusive events are complementary.
+Two events are **mutually exclusive** (also called **disjoint**) if they do not contain any of the same simple events. By definition, if events are complementary they are mutually exclusive, but not all mutually exclusive events are complementary.
 
 A = the student is a political science major
 
@@ -265,7 +265,7 @@ Let's Investigate!
   Sum                        240  246 486
 ```
 
-Question: Can a student be both Male and a Nursing major?
+Question: Can a student be both Male and a Nursing major (are the two events mutually exclusive)?
 
 Question: Are Major and Gender independent of one another?
 
@@ -322,6 +322,31 @@ What is the probabilty that two events happen together (or in a sequence)?
 P(A|B) is read as "the conditional probability of A given B".
 
 
+Conditional Probability
+========================================================
+
+Sometimes, the probabilities of the outcomes for a given random circumstance depend on another random circumstance. 
+
+The **conditional probability** of event B, given event A, is the long run relative frequency with which B occurs when A has occurred or will occur. As noted earlier, we write this as P(B|A). 
+
+Reminder: Just because events A and B depend on one another does not necessarily mean one event causes the other. Making a determination of cause and effect relies on other methods, such as performing a controlled experiment.
+
+
+
+Rule 4: Conditional Probability
+========================================================
+
+This rule is an algebraic restatement of Rule 3; sometimes useful to view it this way, depending on what probabilities we know in a given scenario. 
+
+P(B|A) = P(A and B) / P(A)
+
+Since the labels given to events A and B are essentially arbitrary, we can write the expression either way.
+
+P(A|B) = P(A and B) / P(B)
+
+We calculated the probability of a student's gender conditional on major earlier, but let's revisit it...
+
+
 
 Let's Investigate!
 ========================================================
@@ -342,3 +367,92 @@ Let's Investigate!
 Question: What is the chance that a randomly selected STT1810 student is both Male <u>and</u> a Nursing major?
 
 P(Male and Nursing) = 
+
+
+
+Independent?
+========================================================
+
+How do we know if events A and B are independent?
+
+* The physical situation makes it clear that knowledge of event A does not change the probability that event B will occur.
+
+* If the conditional probability P(A|B) equals the unconditional probability P(A) then knowledge of B does not matter and the events A and B are independent.
+
+* By the same reasoning as above, if P(B|A) = P(B), then A and B are independent.
+
+* A and B are independent if and only if P(A and B) = P(A)P(B)
+
+
+
+Sampling
+========================================================
+
+A sample is drawn **with replacement** if sampled individuals are returned to the eligible pool for each selection.
+
+A sample is drawn **without replacement** if sampled individuals are not eligible for subsequent selection.
+
+In a large population, the difference between sampling with and without replacement is often negligible.
+
+Question: In which scenario would we need to use conditional probabilities for our calculations?
+
+
+
+Let's Investigate!
+========================================================
+
+A preset lock combination is made up of three digits 0 through 9. Assuming the digits are randomly chosen, what is the probability that the combination is 1-2-3? 
+
+With replacement, P(1 and 2 and 3) =
+
+Without replacement, P(1 and 2 and 3) = 
+
+
+
+Confusion of the Inverse
+========================================================
+
+For dependent events A and B, P(A|B) is not the same as P(B|A). People often make the mistake of assuming they are, and this is known as **confusion of the inverse**.
+
+Example: What is the probability that someone tests positive for a disease, given that we know they have the disease? Then what about the inverse, the probability that someone has the disease, given a positive test? Mosts tests ar not 100% accurate.
+
+**sensitivity** is the probability of getting a positive test outcome, given that the person has the disease
+
+**specificity** is the probability of getting a negative test outcome, given that the person does not have the disease
+
+
+
+Let's Investigate!
+========================================================
+
+In 2010, about it was estimated that ~20,000 of the 1.57 million inmates incarcerated in state and federal prisons in the United States were HIV+. Most of them acquired HIV prior to prison.
+
+A particular rapid oral HIV test has the following properties.
+
+* sensitivity = 98.4%
+* specificity = 99.6%
+
+Suppose a new federal law mandates that we test the entire prison population for HIV. What is the chance that a prisoner with a positive test is actually HIV+?
+
+
+
+Tables and Trees
+========================================================
+
+Contingency tables and tree diagrams are two tools we can use to visualize and solve probability problems. We already have been using data tables, but we can create hypothetical tables.
+
+* How can we investigate our problem with a **hypothetical 100,000** table?
+
+* How can we investigate our problem with a **tree diagram**?
+
+We could also use **Bayes Rule** to tackle this problem, but we will focus on the other two methods in this class. 
+
+
+The Birthday Problem
+========================================================
+
+What is the probability that at least two people in a group share a birthday?
+
+How many people do we need to have so that the probability is at least 50%?
+
+We can explore this question using observation, simulation, and mathematical logic.

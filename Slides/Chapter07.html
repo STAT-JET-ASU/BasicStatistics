@@ -784,7 +784,7 @@ hljs.initHighlightingOnLoad();
   <div class="slides">
 
 <section data-state="section" data-transition="linear" data-transition-speed="default">
-<h1>Utts &amp; Heckard CH07</h1><p>Created by: Jill E. Thomley<br/>Updated: 2018-01-18 11:47:02</p>
+<h1>Utts &amp; Heckard CH07</h1><p>Created by: Jill E. Thomley<br/>Updated: 2018-01-22 16:17:55</p>
 
 <div class="slideContent" >
 
@@ -1028,7 +1028,7 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>Mutually Exclusive</h3>
 <div class="slideContent" >
-<p>Two events are <strong>mutually exclusive</strong> (i.e., <strong>disjoint</strong>) if they do not contain any of the same simple events. By definition, events that are complementary are mutually exclusive, but not all mutually exclusive events are complementary.</p>
+<p>Two events are <strong>mutually exclusive</strong> (also called <strong>disjoint</strong>) if they do not contain any of the same simple events. By definition, if events are complementary they are mutually exclusive, but not all mutually exclusive events are complementary.</p>
 
 <p>A = the student is a political science major</p>
 
@@ -1067,7 +1067,7 @@ hljs.initHighlightingOnLoad();
   Sum                        240  246 486
 </code></pre>
 
-<p>Question: Can a student be both Male and a Nursing major?</p>
+<p>Question: Can a student be both Male and a Nursing major (are the two events mutually exclusive)?</p>
 
 <p>Question: Are Major and Gender independent of one another?</p>
 
@@ -1129,6 +1129,34 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
+<h3>Conditional Probability</h3>
+<div class="slideContent" >
+<p>Sometimes, the probabilities of the outcomes for a given random circumstance depend on another random circumstance. </p>
+
+<p>The <strong>conditional probability</strong> of event B, given event A, is the long run relative frequency with which B occurs when A has occurred or will occur. As noted earlier, we write this as P(B|A). </p>
+
+<p>Reminder: Just because events A and B depend on one another does not necessarily mean one event causes the other. Making a determination of cause and effect relies on other methods, such as performing a controlled experiment.</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Rule 4: Conditional Probability</h3>
+<div class="slideContent" >
+<p>This rule is an algebraic restatement of Rule 3; sometimes useful to view it this way, depending on what probabilities we know in a given scenario. </p>
+
+<p>P(B|A) = P(A and B) / P(A)</p>
+
+<p>Since the labels given to events A and B are essentially arbitrary, we can write the expression either way.</p>
+
+<p>P(A|B) = P(A and B) / P(B)</p>
+
+<p>We calculated the probability of a student&#39;s gender conditional on major earlier, but let&#39;s revisit it using the rules&hellip;</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
 <h3>Let&#x27;s Investigate!</h3>
 <div class="slideContent" >
 <pre><code>
@@ -1145,6 +1173,105 @@ hljs.initHighlightingOnLoad();
 <p>Question: What is the chance that a randomly selected STT1810 student is both Male <u>and</u> a Nursing major?</p>
 
 <p>P(Male and Nursing) = </p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Independent?</h3>
+<div class="slideContent" >
+<p>How do we know if events A and B are independent?</p>
+
+<ul>
+<li><p>The physical situation makes it clear that knowledge of event A does not change the probability that event B will occur.</p></li>
+<li><p>If the conditional probability P(A|B) equals the unconditional probability P(A) then knowledge of B does not matter and the events A and B are independent.</p></li>
+<li><p>By the same reasoning as above, if P(B|A) = P(B), then A and B are independent.</p></li>
+<li><p>A and B are independent if and only if P(A and B) = P(A)P(B)</p></li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Sampling</h3>
+<div class="slideContent" >
+<p>A sample is drawn <strong>with replacement</strong> if sampled individuals are returned to the eligible pool for each selection.</p>
+
+<p>A sample is drawn <strong>without replacement</strong> if sampled individuals are not eligible for subsequent selection.</p>
+
+<p>In a large population, the difference between sampling with and without replacement is often negligible.</p>
+
+<p>Question: In which scenario would we need to use conditional probabilities for our calculations?</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Let&#x27;s Investigate!</h3>
+<div class="slideContent" >
+<p>A preset lock combination is made up of three digits 0 through 9. Assuming the digits are randomly chosen, what is the probability that the combination is 1-2-3? </p>
+
+<p>With replacement, P(1 and 2 and 3) =</p>
+
+<p>Without replacement, P(1 and 2 and 3) = </p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Confusion of the Inverse</h3>
+<div class="slideContent" >
+<p>For dependent events A and B, P(A|B) is not the same as P(B|A). People often make the mistake of assuming they are, and this is known as <strong>confusion of the inverse</strong>.</p>
+
+<p>Example: What is the probability that someone tests positive for a disease, given that we know they have the disease? Then what about the inverse, the probability that someone has the disease, given a positive test? Mosts tests ar not 100% accurate.</p>
+
+<p><strong>sensitivity</strong> is the probability of getting a positive test outcome, given that the person has the disease</p>
+
+<p><strong>specificity</strong> is the probability of getting a negative test outcome, given that the person does not have the disease</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Let&#x27;s Investigate!</h3>
+<div class="slideContent" >
+<p>In 2010, about it was estimated that ~20,000 of the 1.57 million inmates incarcerated in state and federal prisons in the United States were HIV+. Most of them acquired HIV prior to prison.</p>
+
+<p>A particular rapid oral HIV test has the following properties.</p>
+
+<ul>
+<li>sensitivity = 98.4%</li>
+<li>specificity = 99.6%</li>
+</ul>
+
+<p>Suppose a new federal law mandates that we test the entire prison population for HIV. What is the chance that a prisoner with a positive test is actually HIV+?</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Tables and Trees</h3>
+<div class="slideContent" >
+<p>Contingency tables and tree diagrams are two tools we can use to visualize and solve probability problems. We already have been using data tables, but we can create hypothetical tables.</p>
+
+<ul>
+<li><p>How can we investigate our problem with a <strong>hypothetical 100,000</strong> table?</p></li>
+<li><p>How can we investigate our problem with a <strong>tree diagram</strong>?</p></li>
+</ul>
+
+<p>We could also use <strong>Bayes Rule</strong> to tackle this problem, but we will focus on the other two methods in this class. </p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>The Birthday Problem</h3>
+<div class="slideContent" >
+<p>What is the probability that at least two people in a group share a birthday?</p>
+
+<p>How many people do we need to have so that the probability is at least 50%?</p>
+
+<p>We can explore this question using observation, simulation, and mathematical logic.</p>
 
 </div>
 
