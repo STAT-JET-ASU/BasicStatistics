@@ -1,7 +1,7 @@
 Utts & Heckard CH07
 ========================================================
 author: Created by: Jill E. Thomley
-date: Updated: 2018-01-22 16:19:00
+date: Updated: 2018-01-25 14:19:23
 autosize: true
 
 
@@ -87,7 +87,7 @@ Question: What do extreme probability values 0 and 1 indicate?
 Majors of Students
 ========================================================
 
-This frequency table summarizes the self-identified majors for students in several of Dr. Thomley's previous STT1810 classes.
+This **frequency table** summarizes the self-identified majors for students in several of Dr. Thomley's previous STT1810 classes.
 
 <table>
  <thead>
@@ -146,7 +146,7 @@ Dataset: STT1810-Thomley / Personality Type STT1810
 Genders of Students
 ========================================================
 
-This frequency table summarizes self-identified genders for students in several of Dr. Thomley's previous STT1810 classes. Note that students were provided with non-binary options, but no students selected them.
+This **frequency table** summarizes self-identified genders for students in several of Dr. Thomley's previous STT1810 classes. Note that students were provided with non-binary options, but no students selected them.
 
 <table>
  <thead>
@@ -226,7 +226,7 @@ P(B) + P(B<sup>c</sup>) = 1 &rarr; P(B<sup>c</sup>) = 1 - P(B) &rarr; 1 - 0.6687
 Mutually Exclusive
 ========================================================
 
-Two events are **mutually exclusive** (also called **disjoint**) if they do not contain any of the same simple events. By definition, if events are complementary they are mutually exclusive, but not all mutually exclusive events are complementary.
+Two events are **mutually exclusive** (also called **disjoint**) if they do not contain any of the same simple events. By definition, if events are complementary they are also mutually exclusive, but not all mutually exclusive events are complementary.
 
 A = the student is a political science major
 
@@ -251,6 +251,8 @@ Question: Are Major and Gender independent of one another?
 
 Let's Investigate!
 ========================================================
+
+This **contingency table** shows students by major and gender.
 
 
 ```
@@ -304,7 +306,7 @@ Let's Investigate!
 
 Question: What is the chance that a randomly selected STT1810 student is Male <u>or</u> a Nursing major (or both)?
 
-P(Male or Nursing) = 
+P(Male **or** Nursing) = 
 
 
 
@@ -366,7 +368,7 @@ Let's Investigate!
 
 Question: What is the chance that a randomly selected STT1810 student is both Male <u>and</u> a Nursing major?
 
-P(Male and Nursing) = 
+P(Male **and** Nursing) = 
 
 
 
