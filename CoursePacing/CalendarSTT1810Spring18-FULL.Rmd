@@ -1,0 +1,520 @@
+---
+title: "STT1810 Spring 2018"
+author: "Instructor: Dr. Jill E. Thomley"
+date: "Updated: `r Sys.time()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    theme: cosmo
+---
+
+```{r echo=F}
+# themes: “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”, “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”  UNITED
+```
+
+<hr>
+
+### Welcome!
+
+This is a preliminary schedule for the semester. Changes generally will be announced, but also pay attention to the "updated" date above.
+
+
+
+### Week 01 {.tabset}
+
+#### Tuesday, January 16
+
+   Due: 
+   
+   * There are no assignments due today.
+
+   In Class:
+   
+   * Introduction to STT1810
+   * Most Developed Country data collection
+
+   Before Next Class: 
+   
+   * Read Utts & Heckard Chapter 01
+   * Read Utts & Heckard Sections 7.1 to 7.4
+   * Watch "Introduction & Statistical Thinking"
+   * Watch "Probability: The Basics and Example"
+
+#### Thursday, January 18
+
+   Due: 
+   
+   * There are no assignments due today
+
+   In Class:
+   
+   * Random circumstances
+   * Relative frequency
+   * Probability rules!
+
+   Before Next Class: 
+   
+   * Read Utts & Heckard Sections 7.5 to 7.7
+   * Watch "Conditional Probability"
+   * Watch "Conditional Probability Tree Diagram Example"
+
+
+
+### Week 02 {.tabset}
+
+#### Tuesday, January 23
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Conditional probability
+   * Tables and tree diagrams
+   * Sensitivity and specificity
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, January 25
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Conditional probability
+   * Sensitivity and specificity
+   * MBTI data collection activity
+
+   Before Next Class: 
+   
+   * Read Utts & Heckard Sections 2.1 to 2.3
+   
+   
+   
+### Week 03 {.tabset}
+
+#### Tuesday, January 30
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Language of data/variables
+   * Graphs for categorical data
+   * Tables for categorical data
+
+   Before Next Class: 
+   
+   * Read Utts & Heckard Sections 2.4 to 2.5
+   
+#### Thursday, February 01
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Language of data/variables
+   * Graphs for quantitative data
+   * Summaries for quantitative data
+
+   Before Next Class: 
+   
+   * Read Utts & Heckard Section 2.6
+   
+   
+
+### Week 04 {.tabset}
+
+#### Tuesday, February 06
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Boxplots for quantitative data
+   * Outliers in quantitative data
+
+   Before Next Class: 
+   
+   * Read Utts & Heckard Sections 2.7
+   
+#### Thursday, February 08
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Standardized Scores
+   * Bell-Shapd Distributions
+   * Normal Probability Plots
+
+   Before Next Class: 
+   
+   * Read Utts & Heckard Sections 3.1-3.2
+   
+   
+   
+### Week 05 {.tabset}
+
+#### Tuesday, February 13
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Anthropometric data collection
+   * Scatterplots for bivariate data
+   * Least squares regression lines
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, February 15
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Least squares regression lines
+   * Interpreting coefficients
+   * Making predictions
+
+   Before Next Class: 
+   
+   * TBA
+   
+   
+   
+### Week 06 {.tabset}
+
+#### Tuesday, February 20
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Correlation coefficients
+   * Difficulties and disasters
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, February 22
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Two-way tables and plots
+   * Risk, relative risk, and increased risk
+
+   Before Next Class: 
+   
+   * TBA
+   
+   
+   
+### Week 07 {.tabset}
+
+#### Tuesday, February 27
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * Odds and odds ratios
+   * TBA
+
+   Before Next Class: 
+   
+   * Complete take-home portion of EXAM 01
+
+<hr>   
+   
+#### Thursday, March 01
+
+   Due: 
+   
+   * Take-Home portion of Exam 01
+
+   In Class:
+   
+   * In-class portion of EXAM 01
+
+   Before Next Class: 
+   
+   * Read Utts & Heckard Sections 4.3-4.4
+
+<hr>
+
+
+### Spring Break!
+<hr>
+
+
+### Week 08 {.tabset}
+
+#### Tuesday, March 13
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, March 15
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+   
+   
+### Week 09 {.tabset}
+
+#### Tuesday, March 20
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, March 22
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+   
+   
+### Week 10 {.tabset}
+
+#### Tuesday, March 27
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, March 29
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+   
+   
+### Week 11 {.tabset}
+
+#### Tuesday, April 03
+
+   * NO CLASS
+
+#### Thursday, April 05
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+   
+   
+### Week 12 {.tabset}
+
+#### Tuesday, April 10
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, April 12
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+   
+   
+### Week 13 {.tabset}
+
+#### Tuesday, April 17
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, April 19
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+   
+   
+### Week 14 {.tabset}
+
+#### Tuesday, April 24
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, April 26
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+   
+
+### Week 15 {.tabset}
+
+#### Tuesday, May 01
+
+   Due: 
+   
+   * TBA
+
+   In Class:
+   
+   * TBA
+
+   Before Next Class: 
+   
+   * TBA
+   
+#### Thursday, May 03
+
+   * READING DAY
+   
+   
+   
+### Final Exam
+
+The final exam is on Tuesday, May 06 @ 2pm.
