@@ -58,6 +58,54 @@ For situations that we can imagine repeating many times, the probability of an o
 
 
 
+Genders of Students
+========================================================
+
+This **frequency table** summarizes self-identified genders for students in several of Dr. Thomley's previous STT1810 classes. Note that students were provided with non-binary options, but no students selected them. The relative frequencies estimate probability that a randomly selected student is male or female.
+
+```{r echo=FALSE}
+require(dplyr)
+data <- read.csv(file=url("https://raw.githubusercontent.com/STAT-JET-ASU/Datafiles/master/Instructor/personalitySTT1810.csv"))
+
+ft <- data %>% 
+      group_by(Gender) %>% 
+      summarise(frequency = n()) %>% 
+      mutate(rel_frequency = frequency/sum(frequency),
+             percentage = 100*rel_frequency) %>%
+             arrange(desc(frequency))
+knitr::kable(ft, format="html", align = c("c","c","c","c")) 
+TOT2 <- data %>% summarize(n())
+```
+
+The total number of students in the dataset is `r TOT2`.
+
+Dataset: STT1810-Thomley / Personality Type STT1810
+
+
+
+Majors of Students
+========================================================
+
+This **frequency table** summarizes the self-identified majors for students in several of Dr. Thomley's previous STT1810 classes.
+
+```{r echo=FALSE}
+require(dplyr)
+data <- read.csv(file=url("https://raw.githubusercontent.com/STAT-JET-ASU/Datafiles/master/Instructor/personalitySTT1810.csv"))
+
+ft <- data %>% 
+      group_by(Major) %>% 
+      summarise(frequency = n()) %>% 
+      mutate(rel_frequency = frequency/sum(frequency),
+             percentage = 100*rel_frequency) %>%
+             arrange(desc(frequency))
+knitr::kable(ft, format="html", align = c("c","c","c","c")) 
+TOT1 <- data %>% summarize(n())
+```
+
+The relative frequencies estimate probability that a randomly selected student is a particular major.
+
+
+
 Defining Events 
 ========================================================
 
@@ -84,57 +132,10 @@ Question: What do extreme probability values 0 and 1 indicate?
 
 
 
-Majors of Students
+Example: Simple Event 
 ========================================================
 
-This **frequency table** summarizes the self-identified majors for students in several of Dr. Thomley's previous STT1810 classes.
-
-```{r echo=FALSE}
-require(dplyr)
-data <- read.csv(file=url("https://raw.githubusercontent.com/STAT-JET-ASU/Datafiles/master/Instructor/personalitySTT1810.csv"))
-
-ft <- data %>% 
-      group_by(Major) %>% 
-      summarise(frequency = n()) %>% 
-      mutate(rel_frequency = frequency/sum(frequency),
-             percentage = 100*rel_frequency) %>%
-             arrange(desc(frequency))
-knitr::kable(ft, format="html", align = c("c","c","c","c")) 
-TOT1 <- data %>% summarize(n())
-```
-
-The total number of students in the dataset is `r TOT1`.
-
-Dataset: STT1810-Thomley / Personality Type STT1810
-
-
-Genders of Students
-========================================================
-
-This **frequency table** summarizes self-identified genders for students in several of Dr. Thomley's previous STT1810 classes. Note that students were provided with non-binary options, but no students selected them.
-
-```{r echo=FALSE}
-require(dplyr)
-data <- read.csv(file=url("https://raw.githubusercontent.com/STAT-JET-ASU/Datafiles/master/Instructor/personalitySTT1810.csv"))
-
-ft <- data %>% 
-      group_by(Gender) %>% 
-      summarise(frequency = n()) %>% 
-      mutate(rel_frequency = frequency/sum(frequency),
-             percentage = 100*rel_frequency) %>%
-             arrange(desc(frequency))
-knitr::kable(ft, format="html", align = c("c","c","c","c")) 
-TOT2 <- data %>% summarize(n())
-```
-
-The total number of students in the dataset is `r TOT2`.
-
-
-
-An Example 
-========================================================
-
-The random circumstance is the major of a selected STT1810 student. The tables on on the previous slides provide a relative frequency probability estimate. 
+The random circumstance is the major of a randomly selected STT1810 student. The tables on on the previous slides provided relative frequency probability estimates. 
 
 sample space = {Communication Disorders, Criminal Justice, HLES, Nursing, Political Science, Other}
 
@@ -142,7 +143,7 @@ sample space = {Communication Disorders, Criminal Justice, HLES, Nursing, Politi
 PS <- data %>% filter(Major=="Political Science") %>% summarize(n = n())
 ```
 
-A = the event that the student is a political science major
+A = the simple event that a student is a political science major
 
 P(A) = `r PS` / `r TOT1` = `r round(PS/TOT1,4)` = `r round(100*PS/TOT1,2)`%
 
@@ -150,20 +151,21 @@ P(A) is read as "the probability of event A" or "probability of A".
 
 
 
-Example Continued 
+Example: Compound Event 
 ========================================================
 
 ```{r echo=FALSE}
 CJ <- data %>% filter(Major=="Criminal Justice") %>% summarize(n = n())
 ```
 
-B = student is from Government and Justice Studies
+B = a randomly selected student is from a major in the Dept. of Government and Justice Studies
 
 This compound event includes the two simple events "political science" and "criminal justice".
 
 P(B) = (`r PS` + `r CJ`) / `r TOT1` = `r round((PS+CJ)/TOT1,4)` = `r round(100*(PS+CJ)/TOT1,2)`%
 
-Why can we just add them? We will come back to that.
+Why can we just add these frequencies? We will come back to that, but an important point is that each student has only one major included in the dataset.
+
 
 
 Rule 1: Complement Rule
@@ -173,9 +175,9 @@ What is the probability that an event does _not_ occur?
 
 One event is the **complement** of another if they do not contain any of the same simple events and together they contain all the simple events in the sample space. In other words, they do not overlap and together they cover the whole sample space.
 
-B = student is from Government and Justice Studies
+B = a student is from Government and Justice Studies
 
-B<sup>c</sup> = student is _not_ from Government and Justice Studies
+B<sup>c</sup> = a student is _not_ from Government and Justice Studies
 
 P(B) + P(B<sup>c</sup>) = 1 &rarr; P(B<sup>c</sup>) = 1 - P(B) &rarr; 1 - `r round((PS+CJ)/TOT1,4)` = `r 1-round((PS+CJ)/TOT1,4)`
 
@@ -184,13 +186,13 @@ P(B) + P(B<sup>c</sup>) = 1 &rarr; P(B<sup>c</sup>) = 1 - P(B) &rarr; 1 - `r rou
 Mutually Exclusive
 ========================================================
 
-Two events are **mutually exclusive** (also called **disjoint**) if they do not contain any of the same simple events. By definition, if events are complementary they are also mutually exclusive, but not all mutually exclusive events are complementary.
+Two events are **mutually exclusive** (also called **disjoint**) if they do not contain any of the same simple events. By definition, if events are complements they are also mutually exclusive, but not all mutually exclusive events are complementary.
 
-A = the student is a political science major
+A = student is a political science major
 
-C = the student is from the Beaver College of Health Sciences
+C = student is from the Beaver College of Health Sciences
 
-One student cannot belong to both A and C, but together these two events do not include all possible majors.
+One student cannot belong to both A and C, but together these two events do not include all possible majors (e.g., Other).
 
 Question: Can a student be both Male and a Nursing major?
 
@@ -199,11 +201,13 @@ Question: Can a student be both Male and a Nursing major?
 Independent
 ========================================================
 
-Two events are **independent** if knowing that one will occur (or has occurred) does not affect the probability that the other will occur. Otherwise they are **dependent**.
+Two events are **independent** if knowing that one will occur (or has occurred) does not affect the probability that the other will occur. Otherwise the events are **dependent**.
 
 Being dependent does not mean one event causes the other. It just means they are related in some way.
 
 Question: Are Major and Gender independent of one another?
+
+We can answer this question by looking at another kind of data table that summarizes both random variables together.
 
 
 
@@ -225,7 +229,7 @@ Question: Are Major and Gender independent of one another?
 Rule 2: Addition Rule
 ========================================================
 
-What is the probability that either one or both of two events happen?
+What is the probability that either one or both of two particular events happen? In other words, for a randomly chosen case, only A _or_ B has to be true, but both might be true in some cases.
 
 *  P(A or B) = P(A) + P(B) - P(A and B)
 
@@ -246,14 +250,14 @@ addmargins(table(data$Major, data$Gender))
 
 Question: What is the chance that a randomly selected STT1810 student is Male <u>or</u> a Nursing major (or both)?
 
-P(Male **or** Nursing) = 
+P(Male **or** Nursing) = P(Male) + P(Nursing) - P(Male and Nursing)
 
 
 
 Rule 3: Multiplication Rule
 ========================================================
 
-What is the probabilty that two events happen together (or in a sequence)?
+What is the probabilty that two events happen together (or in sequence)?
 
 *  P(A and B) = P(A)P(B|A) = P(B)P(A|B)
 
@@ -261,7 +265,8 @@ What is the probabilty that two events happen together (or in a sequence)?
 
 *  We can extend the rule for multiple independent events
 
-P(A|B) is read as "the conditional probability of A given B".
+P(A|B) is read as "the conditional probability of event A given event B" or "probability of A given B".
+
 
 
 Conditional Probability
@@ -299,11 +304,12 @@ addmargins(table(data$Major, data$Gender))
 
 Question: What is the chance that a randomly selected STT1810 student is both Male <u>and</u> a Nursing major?
 
-P(Male **and** Nursing) = 
+* P(Male **and** Nursing) = P(Male)P(Nursing|Male)
+* P(Male **and** Nursing) = P(Nursing)P(Male|Nursing)
 
 
 
-Independent?
+Independent Events?
 ========================================================
 
 How do we know if events A and B are independent?
@@ -321,13 +327,15 @@ How do we know if events A and B are independent?
 Sampling
 ========================================================
 
-A sample is drawn **with replacement** if sampled individuals are returned to the eligible pool for each selection.
+We must consider method of sampling in random circumstances, since that impacts whether or not some events are independent.
 
-A sample is drawn **without replacement** if sampled individuals are not eligible for subsequent selection.
+* sampling **with replacement** means that sampled individuals are returned to the eligible pool for each selection.
 
-In a large population, the difference between sampling with and without replacement is often negligible.
+* sampling **without replacement** means sampled individuals are not eligible for subsequent selection.
 
-Question: In which scenario would we need to use conditional probabilities for our calculations?
+In a large population, probability differences are often negligible.
+
+Question: When would we need to use conditional probabilities for our calculations?
 
 
 
@@ -379,6 +387,7 @@ Contingency tables and tree diagrams are two tools we can use to visualize and s
 * How can we investigate our problem with a **tree diagram**?
 
 We could also use **Bayes Rule** to tackle this problem, but we will focus on the other two methods in this class. 
+
 
 
 The Birthday Problem
