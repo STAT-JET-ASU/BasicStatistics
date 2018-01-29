@@ -46,7 +46,7 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    * Random circumstances
    * Relative frequency
    * Frequency tables
-   * contingency tables
+   * Contingency tables
    * Probability rules!
 
    Before Next Class: 
@@ -100,8 +100,8 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    In Class:
    
    * Language of data/variables
-   * Graphs for categorical data
    * Tables for categorical data
+   * Graphs for categorical data
 
    Before Next Class: 
    
@@ -141,7 +141,7 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    In Class:
    
    * Boxplots for quantitative data
-   * Outliers in quantitative data
+   * Finding outliers using boxplots
 
    Before Next Class: 
    
@@ -156,7 +156,7 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    In Class:
    
    * Standardized Scores
-   * Bell-Shapd Distributions
+   * Bell-Shaped Distributions
    * Normal Probability Plots
 
    Before Next Class: 
