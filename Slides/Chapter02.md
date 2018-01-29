@@ -1,0 +1,80 @@
+Utts & Heckard CH02
+========================================================
+author: Created by: Jill E. Thomley
+date: Updated: 2018-01-29 17:15:38
+autosize: true
+
+
+
+Datasets
+========================================================
+
+* A **variable** is some characteristic of interest that can differ from one individual to the next.
+
+* An **observational unit** (or **observation**) is a single individual, object, or entity about which we have collected data for one or more variables.
+
+* An observation may be called a case, subject, or participant.
+
+A **dataset** is a collection of information for all observations and variables in a study (e.g., survey or experiment). A common way to arrange data is to put variables in columns and observations in rows. This is what we see in **StatCrunch**. 
+
+
+
+Populations vs. Samples
+========================================================
+
+A sample is a subset chosen from a larger population of interest. In any given scenario, the population is defined by the research question(s) being investigated. 
+
+* A summary measure for a **population** is called a **parameter**.
+
+* A summary measure for a **sample** is called a **statistic**.
+
+Sample statistics are used to estimate population parameters.
+
+If we collect data from a whole population, it is called a **census**.
+
+
+
+Types of Variables
+========================================================
+
+* categorical / qualitative
+   + nominal
+   + ordinal
+   
+* numerical / quantitative / measurement
+   + interval
+   + ratio
+
+* explanatory / independent / predictor
+
+* response / dependent / predicted
+
+
+
+Data vs. Information
+========================================================
+
+Statistical methods help us transform raw data into information that provides knowledge and helps us make decisions.
+
+* We use **descriptive statistics** to summarize datasets or make comparisons between datasets, but we do not go beyond the data we actually have. 
+
+* In **inferential statistics**, sample data are used to generalize or make predictions about the larger population from which the sample was selected.
+
+
+
+Categorical Summaries
+========================================================
+
+* A **frequency table** summarizes frequencies and/or relative frequencies of different categories for a categorical variable.
+
+* A **pie chart** can be used to visually summarize a categorical variable. They work best with a small number of categories.
+
+* A **bar chart** can be used to visually summarize one or more categorical variables and are useful for making comparisons.
+
+Frequency tables and bar charts can also be used for numerical data or to display statistics, but we will focus on using them for summarizing categorical data.
+
+
+
+
+
+
