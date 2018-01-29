@@ -8,5 +8,6 @@ http://bulletin.appstate.edu/
 
 <hr>
 
+* Course Schedule (in progress): https://stat-jet-asu.github.io/BasicStatistics/CoursePacing/CalendarSTT1810Spring18notabs.html
 * Chapter 7 Slides (in progress): https://stat-jet-asu.github.io/BasicStatistics/Slides/Chapter07.html
 * Chapter 2 Slides (in progress): https://stat-jet-asu.github.io/BasicStatistics/Slides/Chapter02.html
