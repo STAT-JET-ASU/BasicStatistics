@@ -55,8 +55,8 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    * Watch "Conditional Probability"
    * Watch "Conditional Probability and Independence"
    * Watch "Conditional Probability Tree Diagram Example"
-   * Webassign "CH01--Introduction and Case Studies" (FRI Jan-19)
-   * Webassign "CH07--7.1 Randomness and 7.2 Interpretatations" (MON Jan-22)
+   * Webassign "CH01--Introduction and Case Studies" (FRI)
+   * Webassign "CH07--7.1 Randomness and 7.2 Interpretatations" (MON)
 
 
 
@@ -72,7 +72,7 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
 
    Before Next Class: 
    
-   * Webassign "CH07--7.3 Definitions and 7.4 Probability Rules" (WED Jan-24)
+   * Webassign "CH07--7.3 Definitions and 7.4 Probability Rules" (WED)
    
 #### Thursday, January 25
 
@@ -88,8 +88,8 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    * Read Utts & Heckard Sections 2.1 to 2.3
    * Watch "Scales of Measurement, Part 1"
    * Watch "Scales of Measurement, Part 2"
-   * Webassign "CH07--7.5 Conditional Prob and 7.7 Flawed Judgment" (FRI Jan-26)
-   * Webassign "CH07 QUIZ" (MON Jan-29)
+   * Webassign "CH07--7.5 Conditional Prob and 7.7 Flawed Judgment" (FRI)
+   * Webassign "CH07 QUIZ" (MON)
 
    
    
@@ -110,7 +110,7 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    * Watch "Stem and Leaf Plots"
    * Watch "Creating a Histogram"
    * Watch "Interpreting a Histogram"
-   * Webassign "CH02--2.1 Raw Data and 2.2 Types of Variables" (WED Jan-31)
+   * Webassign "CH02--2.1 Raw Data and 2.2 Types of Variables" (WED)
    
 #### Thursday, February 01
 
@@ -129,7 +129,8 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    * Watch "Population Standard Deviation"
    * Watch "Sample Variance"
    * Watch "Sample Standard Deviation"
-   * Webassign "CH02--2.3 Summarizing Categorical Variables" (FRI Feb-02)
+   * Webassign "CH02--2.3 Summarizing Categorical Variables" (FRI)
+   * Webassign "CH02--2.4 Graphs of Quantitatative Variables" (MON)
 
    
 
@@ -148,7 +149,7 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    * Watch "Percentiles"
    * Watch "Introduction to the Normal Distribution"
    * Watch "Comparing With Z-Scores"
-   * Webassign "CH02--2.4 Graphs of Quantitatative Variables" (WED Feb-07) <span style="color:red">NEW DATE</span>
+   * Webassign "CH02--2.5a Means, Medians, Modes" (WED)
    
 #### Thursday, February 08
 
@@ -164,8 +165,8 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    * watch "Bivariate Linearity, Relationship, and Strength"
    * Watch "Introduction to Simple Linear Regression"
    * Watch "Simple Linear Regression: Interpreting the Parameters"
-   * Webassign "CH02--2.5a Means, Medians, Modes" (FRI Feb-09) <span style="color:red">NEW DATE</span>
-   * Webassign "CH02--2.5b Five-Number Summaries, Boxplots, %-iles" (MON Feb-12) <span style="color:red">NEW DATE</span>
+   * Webassign "CH02--2.5b Five-Number Summaries, Boxplots, %-iles" (FRI)
+   * Webassign "CH02--2.7a Standard Deviations" (MON)
 
    
    
@@ -184,8 +185,8 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    * Watch "Introduction to Residuals"
    * Watch "Calculating Residual Example"
    * Watch "R Squared or Coefficient of Determination"
-   * Webassign "CH02--2.7a Standard Deviations" (WED Feb-14) <span style="color:red">NEW DATE</span>
-
+   * Webassign "CH02--2.7b Bell-Shaped Distributions" (WED)
+   
 #### Thursday, February 15
 
    In Class:
@@ -198,9 +199,8 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    
    * Read Utts & Heckard Sections 3.3-3.5
    * Watch "Calculating Correlation Coefficient r"
-   * Webassign "CH02--2.7b Bell-Shaped Distributions" (FRI Feb-16) <span style="color:red">NEW DATE</span>
-   * Webassign "CH02--2.7c Standard Normal Curve and Z-Scores" (SUN Feb-18) <span style="color:red">NEW DATE</span>
-   * Webassign "CH02 QUIZ" (MON Feb-19)
+   * Webassign "CH02--2.7c Standard Normal Curve and Z-Scores" (FRI)
+   * Webassign "CH02 QUIZ" (MON)
 
 
    
@@ -214,20 +214,20 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
    * Difficulties and disasters
 
    Before Next Class: 
-
-   * Complete take-home portion of EXAM 01 (WED Feb-21)
-
+   
+   * Webassign "CH03--3.1 Scatterplots and 3.2 Regression Line" (WED)
    
 #### Thursday, February 22
 
    In Class:
-
-   * In-class portion of EXAM 01
+   
+   * Two-way tables and plots
+   * Risk, relative risk, and increased risk
 
    Before Next Class: 
 
-   * Read Utts & Heckard Sections 4.1-4.2
-   * Webassign "CH03--3.1 Scatterplots and 3.2 Regression Line" (MON Feb-26)
+   * Webassign "CH03--3.3 Correlation and 3.4 Difficulties" (FRI)
+   * Webassign "CH03 QUIZ" (MON)
 
    
    
@@ -241,20 +241,20 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
 
    Before Next Class: 
    
-   * Webassign "CH03--3.3 Correlation and 3.4 Difficulties" (WED Feb-28)
+   * Complete take-home portion of EXAM 01 (WED)
 
+<hr>   
+   
 #### Thursday, March 01
 
    In Class:
    
-   * Two-way tables and plots
-   * Risk, relative risk, and increased risk   
+   * In-class portion of EXAM 01
 
    Before Next Class: 
    
    * Read Utts & Heckard Sections 4.3-4.4
-   * Webassign "CH03 QUIZ" (MON Mar-02)
-   
+
 <hr>
 
 
@@ -262,33 +262,6 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
 ### Spring Break!
 
 <hr>
-
-
-
-### Week 08
-
-#### Tuesday, March 13
-
-   In Class:
-   
-   * Simpson's Paradox
-   * Chi-Square Test of Independence
-
-   Before Next Class: 
-   
-   * TBA
-   * Webassign "CH04--4.1 Categorical Relationships and 4.2 Risks" (WED Mar-14)
-
-#### Thursday, March 15
-
-   In Class:
-   
-   * Simpson's Paradox
-   * Chi-Square Test of Independence
-
-   Before Next Class: 
-   
-   * TBA
 
 
 
