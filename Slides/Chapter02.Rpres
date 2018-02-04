@@ -60,6 +60,8 @@ Statistical methods help us transform raw data into information that provides kn
 
 * In **inferential statistics**, sample data are used to generalize or make predictions about the larger population from which the sample was selected.
 
+We will often talk about the **distribution** of a particular variable, which describes how often the possible responses occur.
+
 
 
 Categorical Summaries
@@ -71,10 +73,126 @@ Categorical Summaries
 
 * A **bar chart** can be used to visually summarize one or more categorical variables and are useful for making comparisons.
 
-Frequency tables and bar charts can also be used for numerical data or to display statistics, but we will focus on using them for summarizing categorical data.
+Frequency tables and bar charts can also be used for numerical data or to display/compare descriptive statistics. We will focus on using them for summarizing categorical data.
 
 
 
+In StatCrunch
+========================================================
+
+* Stat > Tables > Frequency
+
+* Graph > Pie Chart > With Data (if using a raw dataset)
+
+* Graph > Bar Plot > With Data (if using a raw dataset)
+
+   + `Where` &mdash; selects a subset of the data
+   + `Group By` &mdash; divides data into groups
+   + `Other` &mdash; puts small categories together
+   + Options to format table or plot appearance
+   + Options to put more than one plot on a page
 
 
 
+More on StatCrunch Bar Plots
+========================================================
+
+
+
+Numerical Distributions
+======================================================
+
+The **distribution** of a numerical variable is the overall pattern of how often all the possible values occur. Informally, we can think of it as how the values "stack up" on the number line.
+
+Important features of a numerical distribution...
+
+* shape (symmetric, skewed, number of modes)
+* center (the location or **average** of data values)
+* spread (dispersion or **variability** among data values)
+* outliers (unusually large or small data values)
+
+
+
+Plots for Numerical Data
+======================================================
+
+There are many types of displays for numeric data and data visualization is a growing area of data science and statistics. Here we will focus on four types...
+
+* dotplot
+
+* stem-and-leaf plot
+
+* histogram
+
+* boxplot
+
+Each of these plots has different strengths and weakesses.
+
+
+
+Summaries for Numerical Data
+======================================================
+
+* five-number summary
+   + minimum, Q<sub>1</sub>, median, Q<sub>3</sub>, maximum
+
+* center
+   + mean and median
+   
+* spread
+   + range and interquartile range
+   + variance and standard deviation
+
+* percentiles
+
+
+Measures Based on Counting
+======================================================
+
+TBA
+
+
+
+Median vs. Mean
+======================================================
+
+TBA
+
+
+
+Boxlots
+======================================================
+
+TBA
+
+
+
+Causes of Outliers 
+======================================================
+
+* The value represents legitimate natural variability in the data. Discarding the value would misrepresent the distribution, so retain it and summarize appropriately. 
+
+* A mistake was made in measuring, recording, or entering the data. Values should be corrected and kept when possible, or discarded if they cannot be be fixed.
+
+* The value is not a mistake in measuring or recording, but the individual comes from a different group than the population of interest. In this case, the value should be discarded unless it is relevant to the research question.
+
+
+
+Standard Deviation
+======================================================
+
+TBA
+
+
+
+Bell-Shaped Curves
+======================================================
+
+TBA
+
+
+
+Standardized Scores
+======================================================
+
+TBA
