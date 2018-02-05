@@ -1,7 +1,7 @@
 Utts & Heckard CH02
 ========================================================
 author: Created by: Jill E. Thomley
-date: Updated: 2018-02-04 16:52:17
+date: Updated: 2018-02-05 15:50:00
 autosize: true
 
 
@@ -16,6 +16,22 @@ Datasets
 * An observation may be called a case, subject, or participant.
 
 A **dataset** is a collection of information for all observations and variables in a study (e.g., survey or experiment). A common way to arrange data is to put variables in columns and observations in rows. This is what we see in **StatCrunch**. 
+
+
+
+Loading Datasets in StatCrunch
+========================================================
+
+To access one of the datasets in Dr. Thomley's class data group...
+
+* MyStatCrunch > My Groups > STT1810-Thomley
+
+Click on "## data sets" to see the full list. You can search by name using the box under "Browse all" on the left side of the screen or scroll the alphabetical list. Click on the name to open the dataset. There are also groups for additional textbook datasets.
+
+* Utts & Heckard 5th Edition Datasets
+* Brase & Brase Selected Datasets
+
+Use Explore > Groups to search for and join the groups. Use the search terms "Thomley", "Utts", and "Brase". 
 
 
 
@@ -86,9 +102,9 @@ In StatCrunch
 
 * Graph > Bar Plot > With Data (if using a raw dataset)
 
-   + `Where` &mdash; selects a subset of the data
-   + `Group By` &mdash; divides data into groups
-   + `Other` &mdash; puts small categories together
+   + Where &mdash; selects a subset of the data
+   + Group By &mdash; divides data into groups
+   + Other &mdash; puts small categories together
    + Options to format table or plot appearance
    + Options to put more than one plot on a page
 
@@ -96,6 +112,8 @@ In StatCrunch
 
 More on StatCrunch Bar Plots
 ========================================================
+
+TBA
 
 
 
@@ -119,11 +137,8 @@ Plots for Numerical Data
 There are many types of displays for numeric data and data visualization is a growing area of data science and statistics. Here we will focus on four types...
 
 * dotplot
-
 * stem-and-leaf plot
-
 * histogram
-
 * boxplot
 
 Each of these plots has different strengths and weakesses.
@@ -146,24 +161,50 @@ Summaries for Numerical Data
 * percentiles
 
 
-Measures Based on Counting
-======================================================
-
-TBA
-
-
 
 Median vs. Mean
 ======================================================
 
-TBA
+* A variable's **median** is the value that cuts the data set in half
+   + 50% of the values are above the median, 50% are below
+   + for an odd number of cases, the median is a data value
+   + for an even number of cases, average two middle values
 
+* A variable's **mean** is what we usually refer to as its "average"
+   + sum of all values divided by total number of observations
+   + represents the balance point of the variable's distribution
+
+Both represent a distribution's "center"&mdash;just in different ways.
+
+
+
+In StatCrunch
+========================================================
+
+* Stat > Summary Stats > Columns (for descriptive statistics)
+* Graph > Dotplot
+* Graph > Stem and Leaf
+* Graph > Histogram
+* Graph > Boxplot
+
+   + Where &mdash; selects a subset of the data
+   + Group By &mdash; divides data into groups
+   + Other &mdash; puts small categories together
+   + Options to format table or plot appearance
+   + Options to put more than one plot on a page
+   
 
 
 Boxlots
 ======================================================
 
-TBA
+* Draw a box that spans Q<sub>1</sub> to Q<sub>3</sub>&mdash;the middle half of the data
+* Show the median by drawing a line at the correct value inside the box&mdash;this cuts the middle half in half, 25% on each side
+* Calculate fences to help identify outliers
+   + Lower Fence = Q<sub>1</sub> - 1.5 &times; IQR
+   + Upper Fence = Q<sub>3</sub> + 1.5 &times; IQR
+* Indicate data points outside the fences using dots or circles&mdash;these points are considered **outliers**
+* Draw whiskers to the largest and smallest non-outlier points
 
 
 
@@ -196,3 +237,18 @@ Standardized Scores
 ======================================================
 
 TBA
+
+
+
+Good Datasets for Practice
+======================================================
+
+* Anthropometric
+* Electoral Votes
+* Normal Samples
+* MLB-Salaries-2002
+* MLB-Salaries-2013
+* Oscar Ages
+* Personality Type STT1810
+* Personality Type STT3850
+* WCS Weather Days
