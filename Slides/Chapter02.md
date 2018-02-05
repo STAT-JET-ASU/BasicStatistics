@@ -1,7 +1,7 @@
 Utts & Heckard CH02
 ========================================================
 author: Created by: Jill E. Thomley
-date: Updated: 2018-02-05 15:56:46
+date: Updated: 2018-02-05 16:02:36
 autosize: true
 
 
@@ -93,7 +93,7 @@ Frequency tables and bar charts can also be used for numerical data or to displa
 
 
 
-In StatCrunch
+Summaries In StatCrunch
 ========================================================
 
 * Stat > Tables > Frequency
@@ -178,7 +178,7 @@ Both represent a distribution's "center"&mdash;just in different ways.
 
 
 
-In StatCrunch
+Summaries In StatCrunch
 ========================================================
 
 * Stat > Summary Stats > Columns (for descriptive statistics)
