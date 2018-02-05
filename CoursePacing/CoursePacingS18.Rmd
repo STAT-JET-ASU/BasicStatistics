@@ -139,6 +139,7 @@ This is a preliminary schedule for the course up through Spring Break. Face to f
 
    In Class:
    
+   * Summaries for quantitative data   
    * Boxplots for quantitative data
    * Finding outliers using boxplots
 
