@@ -14,8 +14,7 @@ output:
 
 ### Welcome!
 
-<strike>This is a preliminary schedule for the course up through Spring Break. More weeks will be added as we go along.</strike> This schedule covers the entire semester, but assignments may still be added. Face to face meetings are on Tuesdays and Thursdays. Online homework and quizzes in Webassign are due Mondays (MON), Wednesdays (WED) and Fridays (FRI). Changes to this schedule will be announced, but also pay attention to the "updated" date above.  
-
+Face to face meetings will be on Tuesdays and Thursdays. Online homework and quizzes in Webassign are due Mondays (MON), Wednesdays (WED) and Fridays (FRI). Changes to this schedule will be announced, but also pay attention to the "updated" date above.  
 
 
 ### Week 01
@@ -110,7 +109,7 @@ output:
    
 #### **Thursday, February 01**
 
-<strike>In Class:
+In Class:
    
    * Language of data/variables
    * Graphs for quantitative data
@@ -125,10 +124,7 @@ output:
    * Watch "Population Standard Deviation"
    * Watch "Sample Variance"
    * Watch "Sample Standard Deviation"
-   * Webassign "CH02--2.3 Summarizing Categorical Variables"</strike>
-
-<span style="color:red">This face to face class meeting was canceled due to illness.</span>
-   
+   * Webassign "CH02--2.3 Summarizing Categorical Variables"
    
 
 ### Week 04
