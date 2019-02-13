@@ -10,6 +10,6 @@ http://bulletin.appstate.edu/
 
 Textbook: Utts, J, M. and Heckard, R. F. (2014). _Mind on Statistics, 5th Ed._ Belmont, CA: Duxbury Press.
 
-* Course Pacing: https://stat-jet-asu.github.io/BasicStatistics/CoursePacing/CoursePacingS18.html
+* Course Pacing: https://stat-jet-asu.github.io/BasicStatistics/Schedule/ScheduleS18.html
 * Chapter 7 Slides (in progress): https://stat-jet-asu.github.io/BasicStatistics/Slides/Chapter07.html
 * Chapter 2 Slides (in progress): https://stat-jet-asu.github.io/BasicStatistics/Slides/Chapter02.html
