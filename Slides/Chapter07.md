@@ -1,7 +1,7 @@
 Utts & Heckard CH07
 ========================================================
 author: Created by: Jill E. Thomley
-date: Updated: 2018-01-29 16:00:10
+date: Updated: 2018-09-24 15:10:57
 autosize: true
 
 
@@ -74,21 +74,21 @@ This **frequency table** summarizes self-identified genders for students in seve
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:center;"> Male </td>
-   <td style="text-align:center;"> 246 </td>
-   <td style="text-align:center;"> 0.5061728 </td>
-   <td style="text-align:center;"> 50.61728 </td>
+   <td style="text-align:center;"> Female </td>
+   <td style="text-align:center;"> 341 </td>
+   <td style="text-align:center;"> 0.5198171 </td>
+   <td style="text-align:center;"> 51.98171 </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Female </td>
-   <td style="text-align:center;"> 240 </td>
-   <td style="text-align:center;"> 0.4938272 </td>
-   <td style="text-align:center;"> 49.38272 </td>
+   <td style="text-align:center;"> Male </td>
+   <td style="text-align:center;"> 315 </td>
+   <td style="text-align:center;"> 0.4801829 </td>
+   <td style="text-align:center;"> 48.01829 </td>
   </tr>
 </tbody>
 </table>
 
-The total number of students in the dataset is 486.
+The total number of students in the dataset is 656.
 
 Dataset: STT1810-Thomley / Personality Type STT1810
 
@@ -111,39 +111,39 @@ This **frequency table** summarizes the self-identified majors for students in s
 <tbody>
   <tr>
    <td style="text-align:center;"> Criminal Justice </td>
-   <td style="text-align:center;"> 190 </td>
-   <td style="text-align:center;"> 0.3909465 </td>
-   <td style="text-align:center;"> 39.094650 </td>
+   <td style="text-align:center;"> 227 </td>
+   <td style="text-align:center;"> 0.3460366 </td>
+   <td style="text-align:center;"> 34.603659 </td>
   </tr>
   <tr>
    <td style="text-align:center;"> Political Science </td>
-   <td style="text-align:center;"> 135 </td>
-   <td style="text-align:center;"> 0.2777778 </td>
-   <td style="text-align:center;"> 27.777778 </td>
+   <td style="text-align:center;"> 178 </td>
+   <td style="text-align:center;"> 0.2713415 </td>
+   <td style="text-align:center;"> 27.134146 </td>
   </tr>
   <tr>
    <td style="text-align:center;"> Nursing </td>
-   <td style="text-align:center;"> 60 </td>
-   <td style="text-align:center;"> 0.1234568 </td>
-   <td style="text-align:center;"> 12.345679 </td>
+   <td style="text-align:center;"> 111 </td>
+   <td style="text-align:center;"> 0.1692073 </td>
+   <td style="text-align:center;"> 16.920732 </td>
   </tr>
   <tr>
    <td style="text-align:center;"> Communication Disorders </td>
-   <td style="text-align:center;"> 43 </td>
-   <td style="text-align:center;"> 0.0884774 </td>
-   <td style="text-align:center;"> 8.847737 </td>
+   <td style="text-align:center;"> 56 </td>
+   <td style="text-align:center;"> 0.0853659 </td>
+   <td style="text-align:center;"> 8.536585 </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> HLES </td>
-   <td style="text-align:center;"> 37 </td>
-   <td style="text-align:center;"> 0.0761317 </td>
-   <td style="text-align:center;"> 7.613169 </td>
+   <td style="text-align:center;"> H&amp;ES </td>
+   <td style="text-align:center;"> 46 </td>
+   <td style="text-align:center;"> 0.0701220 </td>
+   <td style="text-align:center;"> 7.012195 </td>
   </tr>
   <tr>
    <td style="text-align:center;"> Other </td>
-   <td style="text-align:center;"> 21 </td>
-   <td style="text-align:center;"> 0.0432099 </td>
-   <td style="text-align:center;"> 4.320988 </td>
+   <td style="text-align:center;"> 38 </td>
+   <td style="text-align:center;"> 0.0579268 </td>
+   <td style="text-align:center;"> 5.792683 </td>
   </tr>
 </tbody>
 </table>
@@ -189,7 +189,7 @@ sample space = {Communication Disorders, Criminal Justice, HLES, Nursing, Politi
 
 A = the simple event that a student is a political science major
 
-P(A) = 135 / 486 = 0.2778 = 27.78%
+P(A) = 178 / 656 = 0.2713 = 27.13%
 
 P(A) is read as "the probability of event A" or "probability of A".
 
@@ -204,7 +204,7 @@ B = a randomly selected student is from a major in the Dept. of Government and J
 
 This compound event includes the two simple events "political science" and "criminal justice".
 
-P(B) = (135 + 190) / 486 = 0.6687 = 66.87%
+P(B) = (178 + 227) / 656 = 0.6174 = 61.74%
 
 Why can we just add these frequencies? We will come back to that, but an important point is that each student has only one major included in the dataset.
 
@@ -221,7 +221,7 @@ B = a student is from Government and Justice Studies
 
 B<sup>c</sup> = a student is _not_ from Government and Justice Studies
 
-P(B) + P(B<sup>c</sup>) = 1 &rarr; P(B<sup>c</sup>) = 1 - P(B) &rarr; 1 - 0.6687 = 0.3313
+P(B) + P(B<sup>c</sup>) = 1 &rarr; P(B<sup>c</sup>) = 1 - P(B) &rarr; 1 - 0.6174 = 0.3826
 
 
 
@@ -262,13 +262,13 @@ This **contingency table** shows students by major and gender.
 ```
                          
                           Female Male Sum
-  Communication Disorders     41    2  43
-  Criminal Justice            55  135 190
-  HLES                        20   17  37
-  Nursing                     50   10  60
-  Other                       15    6  21
-  Political Science           59   76 135
-  Sum                        240  246 486
+  Communication Disorders     54    2  56
+  Criminal Justice            61  166 227
+  H&ES                        25   21  46
+  Nursing                     96   15 111
+  Other                       27   11  38
+  Political Science           78  100 178
+  Sum                        341  315 656
 ```
 
 Question: Can a student be both Male and a Nursing major (are the two events mutually exclusive)?
@@ -299,13 +299,13 @@ Let's Investigate!
 ```
                          
                           Female Male Sum
-  Communication Disorders     41    2  43
-  Criminal Justice            55  135 190
-  HLES                        20   17  37
-  Nursing                     50   10  60
-  Other                       15    6  21
-  Political Science           59   76 135
-  Sum                        240  246 486
+  Communication Disorders     54    2  56
+  Criminal Justice            61  166 227
+  H&ES                        25   21  46
+  Nursing                     96   15 111
+  Other                       27   11  38
+  Political Science           78  100 178
+  Sum                        341  315 656
 ```
 
 Question: What is the chance that a randomly selected STT1810 student is Male <u>or</u> a Nursing major (or both)?
@@ -362,13 +362,13 @@ Let's Investigate!
 ```
                          
                           Female Male Sum
-  Communication Disorders     41    2  43
-  Criminal Justice            55  135 190
-  HLES                        20   17  37
-  Nursing                     50   10  60
-  Other                       15    6  21
-  Political Science           59   76 135
-  Sum                        240  246 486
+  Communication Disorders     54    2  56
+  Criminal Justice            61  166 227
+  H&ES                        25   21  46
+  Nursing                     96   15 111
+  Other                       27   11  38
+  Political Science           78  100 178
+  Sum                        341  315 656
 ```
 
 Question: What is the chance that a randomly selected STT1810 student is both Male <u>and</u> a Nursing major?
