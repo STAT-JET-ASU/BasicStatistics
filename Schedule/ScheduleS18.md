@@ -1,7 +1,7 @@
 ---
 title: "STT1810 Spring 2018"
 author: "Instructor: Dr. Jill E. Thomley"
-date: "Updated: `r Sys.time()`"
+date: "Updated: 2019-08-16 15:27:26"
 output:
   html_document:
     toc: true
